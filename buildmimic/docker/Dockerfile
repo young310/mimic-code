@@ -11,7 +11,7 @@ RUN mkdir /mimic-code \
  && cd /mimic-code \
  # clone the postgres build scripts into a local folder
  && git init \
- && git remote add -f origin https://github.com/MIT-lcp/mimic-code \
+ && git remote add -f origin https://github.com/young310/mimic-code.git \
  && git config core.sparseCheckout true \
  && echo "buildmimic/postgres/" >> .git/info/sparse-checkout \
  && echo "buildmimic/docker/"   >> .git/info/sparse-checkout \
